@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p1styles.css">
+    <title>Property Details</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="property-details">
+        <div class="property-header">
+            <div class="property-icon">
+                <i class="fas fa-home"></i> <!-- Property icon -->
+            </div>
+            <h1 id="property-name"></h1>
+            <p id="property-location"></p>
+            <p id="property-bed-bath">
+                <i class="fas fa-bed"></i> <span id="property-beds"></span> beds &nbsp; 
+                <i class="fas fa-bath"></i> <span id="property-baths"></span> baths
+            </p>
+        </div>
+
+        <div class="property-gallery">
+            <h2>Property Images</h2>
+            <div id="property-images"></div>
+        </div>
+
+        <div class="property-description">
+            <h2>Description</h2>
+            <p id="property-description-text"></p>
+        </div>
+
+        <div class="agent-info">
+            <h2>Contact the Agent</h2>
+            <div class="agent-info-container">
+                <img src="" alt="Agent Image" id="agent-image" class="agent-image">
+                <div class="agent-details">
+                    <p><strong>Agent Name:</strong> <span id="agent-name"></span></p>
+                    <p><strong>Email:</strong> <span id="agent-email"></span></p>
+                    <p><strong>Phone:</strong> <span id="agent-phone"></span></p>
+                </div>
+            </div>
+        </div>
+
+        <a href="recentProperty.html" class="details-btn">Back to Listings</a>
+    </section>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="p1script.js"></script>
+</body>
+</html>

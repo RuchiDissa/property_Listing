@@ -1,0 +1,149 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Property Details Section */
+.property-details {
+    width: 80%;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Property Header */
+.property-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.property-header h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+.property-header p {
+    font-size: 16px;
+    color: #555;
+}
+
+.property-icon {
+    font-size: 30px;
+    color: #007bff;
+    background-color: rgba(0, 123, 255, 0.1);
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+/* Property Image Gallery */
+.property-gallery img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.property-gallery h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Property Description */
+.property-description {
+    margin-top: 20px;
+}
+
+.property-description h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.property-description p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Agent Info Section */
+.agent-info {
+    margin-top: 30px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+
+.agent-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.agent-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+.agent-info strong {
+    color: #333;
+}
+
+/* Button Style */
+.details-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.details-btn:hover {
+    background-color: #0056b3;
+}
+/* Agent Info Section */
+.agent-info {
+    margin-top: 30px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+
+.agent-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.agent-info-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.agent-image {
+    width: 80px; /* Adjust size as needed */
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.agent-details p {
+    font-size: 16px;
+    color: #555;
+}
+
+.agent-details strong {
+    color: #333;
+}
